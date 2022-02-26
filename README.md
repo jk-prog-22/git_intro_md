@@ -4,15 +4,21 @@
 
 ## Svarīgākās komandas
 ``` bash
-git init
-git add .
-git commit -m "ziņa"
-git status
-git clone
+git init                # inicializē tukšu repozitoriju
+git status              # parāda statusu
 
-git remote add origin ADRESE
-git remote -v
-git push -u origin master
+git remote add origin ADRESE # pievieno remote adresi
+git remote -v                # apskatīt, kur ir remote
+
+git checkout -b "jauns-zars" # izveidot jaunu zaru
+git branch                   # apskatīties zarus
+git checkout "zars"          # pārslēgties starp zariem
+
+git clone ADRESE            # klonē esošu repozitoriju
+git add .                   # sagatavo izmaiņas versijai(commit)
+git commit -m "ziņa"        # izveido versiju/saglabā
+git push -u origin master   # augšupielādēt izmaiņas
+git pull                    # lejupielādēt izmaiņas
 ```
 
 * pirmais punkts
