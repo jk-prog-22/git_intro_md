@@ -9,3 +9,5 @@ git add .
 git commit -m "ziņa"
 git status
 ```
+
+-
